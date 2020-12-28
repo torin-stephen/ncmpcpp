@@ -33,15 +33,15 @@ Project page - http://rybczak.net/ncmpcpp/
 
 The simplest way to compile this package is:
 
-  1. `cd` to the directory containing the package's source code.
+  1. Run `cd` to the directory containing the package's source code.
 
-  For the next two commands, `csh` users will need to prefix them with
-  `sh `.
+  *For the next two commands, `csh` users will need to prefix them with
+  `sh `.*
 
   2. Run `./autogen.sh` to generate the `configure` script.
 
   3. Run `./configure` to configure the package for your system.  This
-     will take a while.  While running, it prints some messages
+     will take a while, and while running, it prints some messages
      telling which features it is checking for.
 
   4. Run `make` to compile the package.
@@ -49,8 +49,8 @@ The simplest way to compile this package is:
   5. Type `make install` to install the programs and any data files
      and documentation.
 
-  6. You can remove the program binaries and object files from the
-     source code directory by typing `make clean`.
+  6. Run `make clean` to remove the program binaries and object files from the
+     source code directory.
 
 Detailed intallation instructions can be found in the `INSTALL` file. 
 
